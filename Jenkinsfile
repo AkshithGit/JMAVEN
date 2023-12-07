@@ -11,7 +11,7 @@ pipeline {
         echo "Hi this is a build stage"
       }
     }
-    stage("test"){
+    stage("deploy"){
       steps{
         echo "Hi this is a deploy stage"
       }
