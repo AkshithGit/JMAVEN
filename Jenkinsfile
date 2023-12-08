@@ -24,7 +24,7 @@ pipeline {
         stage("Build Image") {
             steps{
                 script{
-                   buildImage()
+                   buildImage 'darkmatterdocker/java-maven-app:1.1.0'
                 }
             }
         }
